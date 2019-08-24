@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="KEYWORDS" content="library, C, C++,
+ Oracle, SQL Server, SQLServer, DB2, Sybase, Informix, InterBase, SQLBase, MySQL, Postgre, ODBC, SQLite
+ client, database, programming, development, software, Win32, Windows, Linux, Unix, Solaris,
+ Microsoft, Borland, Centura, Gupta, IBM">
+<meta name="DESCRIPTION" content="SQLAPI++ is C++ library for accessing SQL databases (Oracle, SQL Server, Sybase, DB2, InterBase, SQLBase, Informix, MySQL, Postgre, ODBC).
+ It is easy to use and very efficient.">
+<title>SQLAPI++ - C++ library for accessing SQL databases</title>
+</head><body style="    color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); background-image: url(./images/bg.gif);">
+<!--class="GlbHdr"-->
+<table id="TABLE1" frame="hsides" align="right" border="2" bordercolor="#004fcd" cellpadding="0" cellspacing="2" height="40" width="600">
+  <tbody>
+    <tr>
+<!--class="GlbActive"--> <td bordercolor="black" align="center" bgcolor="#00bb00" width="70"> <a style="text-decoration: none;" href="./index.html"> <font color="white" face="sans-serif" size="3"> <b>Home</b></font></a></td>
+      <td bordercolor="black" align="center" bgcolor="#000094" width="70"> <a style="text-decoration: none;" href="./HowTo/index.html"> <font color="white" face="sans-serif" size="3"> <b>How To</b></font></a></td>
+<!--class="GlbDefault"--> <td bordercolor="black" align="center" bgcolor="#000094" width="70"> <a style="text-decoration: none;" href="./OnLineDoc/index.html"> <font color="white" face="sans-serif" size="3"> <b>Online Documentation</b></font></a></td>
+<!--class="GlbDefault"--> <td bordercolor="black" align="center" bgcolor="#000094" width="70"> <a style="text-decoration: none;" href="./Support/index.html"> <font color="white" face="sans-serif" size="3"> <b>Support</b></font></a></td>
+      <td bordercolor="black" align="center" bgcolor="#000094" width="70"> <a style="text-decoration: none;" href="./Download/index.html"> <font color="white" face="sans-serif" size="3"> <b>Download</b></font></a></td>
+      <td bordercolor="black" align="center" bgcolor="#000094" width="70"> <a style="text-decoration: none;" href="./Order/index.html"> <font color="white" face="sans-serif" size="3"> <b>Order</b></font></a></td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;
+<p>&nbsp;</p>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td valign="top" width="165"><!--class="LeftMenu"-->
+      <table frame="void" cellspacing="5" width="165">
+        <tbody>
+          <tr>
+            <td>
+            <table frame="void" cellspacing="5" width="165">
+              <tbody>
+                <tr>
+                  <td><img src="./images/green.gif" align="middle" alt="" height="12" width="12"></td>
+                  <td><a style="text-decoration: none;" href="#Benefits"><font color="white" face="sans-serif" size="2">Benefits</font></a></td>
+                </tr>
+                <tr>
+                  <td><img src="./images/green.gif" align="middle" alt="" height="12" width="12"></td>
+                  <td><a style="text-decoration: none;" href="#Examples"><font color="white" face="sans-serif" size="2">Examples</font></a></td>
+                </tr>
+                <tr>
+                  <td><img src="./images/green.gif" align="middle" alt="" height="12" width="12"></td>
+                  <td><a style="text-decoration: none;" href="#History"><font color="white" face="sans-serif" size="2">History</font></a></td>
+                </tr>
+                <tr>
+                  <td><img src="./images/green.gif" align="middle" alt="" height="12" width="12"></td>
+                  <td><a style="text-decoration: none;" href="references.html"><font color="white" face="sans-serif" size="2">SQLAPI++ References</font></a></td>
+                </tr>
+                <tr>
+                  <td><font color="white" face="sans-serif" size="2">&nbsp;</font></td><td></td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <p><font color="white"><strong>Quick download:</strong></font></p>
+            <p><a style="text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial.exe">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ Windows</u></font></a>
+            </p>
+            <p><a style="text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial.tar.gz">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ Linux</u></font></a>
+            </p>            
+            <p><a style="text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial.dmg">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ Mac OS X</u></font></a>
+            </p>
+            <p><a style="text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial_freebsd.tgz">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ FreeBSD</u></font></a>
+            </p>
+            <p><a style="text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial_sol10-x86.tar.Z">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ Solaris x86</u></font></a>
+            </p>
+            <p><a style=" text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial_sol10-sparc.tar.Z">
+                <font color="white" face="sans-serif" size="2"><u>SQLAPI++ Solaris SPARC</u></font></a>
+            </p>
+            <p><a style=" text-decoration: none;" href="http://www.sqlapi.com/Download/sqlapi_trial_sol10-x86.tar.Z">
+                <font color="white" face="sans-serif" size="2"></font></a>
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+<!--empty column--> <td width="20">
+      <p> </p>
+      <br>
+<!--Content--> <td align="left" valign="top">
+    <center>
+        <h1> SQLAPI++ Library</h1>
+    </center>
+    <p>
+        SQLAPI++ is a C++ library for accessing multiple SQL databases
+        (Oracle, SQL Server, DB2, Sybase, Informix, InterBase, SQLBase, MySQL,
+        PostgreSQL, SQLite, SQL Anywhere and ODBC). It uses native APIs of target DBMS so
+        applications developed with SQLAPI++ library run swiftly and
+        efficiently. The product also provides a low-level interface that
+        allows developers to access database-specific features. By
+        encapsulating a vendor's API, SQLAPI++ library acts as middleware and
+        delivers database portability. See details on supporting SQL database
+        servers on different platforms:
+    </p>
+    <p>
+        <table border="1" cellpadding="1" cellspacing="1">
+            <tbody>
+                <tr bgcolor="blue">
+                    <td><strong><font style="background-color: rgb(0, 0, 255);" color="white">Server</font></strong></td>
+                    <td><strong><font style="background-color: rgb(0, 0, 255);" color="white">Windows</font></strong></td>
+                    <td><font style="background-color: rgb(0, 0, 255);" color="white"><strong>Linux/Unix</strong></font></td>
+                </tr>
+                <tr>
+                    <td>Oracle Database Server </td>
+                    <td> Supported (OCI)</td>
+                    <td>Supported (OCI)</td>
+                </tr>
+                <tr>
+                    <td>Microsoft SQL Server</td>
+                    <td>Supported (SQLNCLI/ODBC, OLE DB, DB-Library)</td>
+                    <td>
+                        SQLNCLI/ODBC for Linux x86-64, otherwise ODBC driver and connection should be used (FreeTDS, Easysoft,...)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sybase</td>
+                    <td>Supported (Open Client, ASE &amp; ASA)</td>
+                    <td>Supported (Open Client, ASE &amp; ASA)</td>
+                </tr>
+                <tr>
+                    <td>DB2</td>
+                    <td>Supported (DB2 CLI)</td>
+                    <td>Supported (DB2 CLI)</td>
+                </tr>
+                <tr>
+                    <td>Informix</td>
+                    <td>Supported (Informix CLI)</td>
+                    <td>Supported (Informix CLI)</td>
+                </tr>
+                <tr>
+                    <td>InterBase/Firebird</td>
+                    <td>Supported</td>
+                    <td>Supported</td>
+                </tr>
+                <tr>
+                    <td>SQLBase</td>
+                    <td>Supported (CAPI)</td>
+                    <td>Supported (CAPI)</td>
+                </tr>
+                <tr>
+                    <td>MySQL, MariaDB</td>
+                    <td>Supported (MySQL C API)&nbsp;</td>
+                    <td>Supported (MySQL C API)</td>
+                </tr>
+                <tr>
+                    <td>PostgreSQL</td>
+                    <td>Supported (libpq)</td>
+                    <td>Supported (libpq)</td>
+                </tr>
+                <tr>
+                    <td>ODBC</td>
+                    <td>Supported</td>
+                    <td>Supported (iODBC, unixODBC)</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        SQLite<br>
+                    </td>
+                    <td style="vertical-align: top;">
+                        Supported<br>
+                    </td>
+                    <td style="vertical-align: top;">Supported</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        Sybase SQL Anywhere<br>
+                    </td>
+                    <td style="vertical-align: top;">
+                        Supported (SQL Anywhere C API)<br>
+                    </td>
+                    <td style="vertical-align: top;">Supported (SQL Anywhere C API)</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+    <p>
+        Currently SQLAPI++ library supports the following C/C++
+        compilers:
+    </p>
+    <ul>
+        <li> Microsoft Visual C++ </li>
+        <li>
+            Embarcadero (Borland) C++<br>
+        </li>
+        <li>GNU GCC C++ compiler</li>
+        <li>
+            Solaris Studio C++
+            compiler
+        </li>
+
+    </ul>
+    <h2><a name="Benefits"></a>Why use SQLAPI++?</h2>
+    <ul>
+        <li>
+            SQLAPI++ directly calls native API's of target DBMSs
+            (unlike ADO which uses OLEDB and/or ODBC intermediate layer). That's
+            why SQLAPI++ is the fastest way to manage you data.
+        </li>
+        <li>
+            No need (vs ADO) to install and configure OLEDB and/or ODBC
+            drivers when developing and distributing your applications.
+        </li>
+        <li>
+            Low-level interface that allows developers to access
+            database-specific features.
+        </li>
+        <li>SQLAPI++ ships with all the sources. </li>
+        <li>Free lifetime support, bugs fixing and new version updates.</li>
+    </ul>
+    <h2><a name="Examples"></a> Examples</h2>
+    <h3>Steps</h3>
+    <p>
+        <a href="./Examples/step1.cpp">Step 1</a>. Connecting to
+        database (and error handling)<br>
+        <a href="./Examples/step2.cpp">Step 2</a>. Executing a simple SQL
+        command<br>
+        <a href="./Examples/step3.cpp">Step 3</a>. Binding input
+        parameters<br>
+        <a href="./Examples/step4.cpp">Step 4.</a> Executing a select
+        query (and fetching result set)<br>
+        <a href="./Examples/step5.cpp">Step 5.</a> Binding LongBinary,
+        LongChar, BLob and CLob data<br>
+        <a href="./Examples/step6.cpp">Step 6.</a> Fetching LongBinary,
+        LongChar, BLob and CLob data<br>
+        <a href="./Examples/step7.cpp">Step 7.</a> Multithreading support
+        and canceling queries<br>
+    </p>
+    <h3>Advanced Examples</h3>
+    <p>
+        <a href="./Examples/refcursors.cpp">Using Oracle REF CURSORs</a><br>
+        <a href="./Examples/nestedcursors.cpp">Using Oracle nested cursors</a><br>
+        <a href="./Examples/bulk_fetch.cpp">Fetching records in bulk</a><br>
+    </p>
+    <h2><a name="History"></a>History</h2>
+    <table style="width: 100%;" border="0" cellpadding="1" cellspacing="1" width="100%">
+        <tbody>
+            <tr bgcolor="blue">
+                <td><font color="#ffffff"><strong>29&nbsp;March 2019</strong></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Version 4.2.5.2 of SQLAPI++ library released.</p>
+                    <p>New features:</p>
+                    <ul>
+                        <li>SQL Anywhere: Fixes crash when unimplemented scrollable fetching used (thanks Christian Schmitz).</li>
+                        <li>Oracle: Fixed external connection handles attaching (thanks Frank Hilliger).</li>
+                        <li>General: sa_strncpy/sa_wcsncpy related fixes (thanks Manuel Baerten).</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;" border="0" cellpadding="1" cellspacing="1" width="100%">
+        <tbody>
+            <tr bgcolor="blue">
+                <td><font color="#ffffff"><strong>27&nbsp;February 2019</strong></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Version 4.2.5 of SQLAPI++ library released.</p>
+                    <p>New features:</p>
+                    <ul>
+                        <li>General: Fixed parameter by name searching (thanks Frank Hilliger).</li>
+                        <li>SQL Anywhere: Fixed API initialization on Linux/Unix (thanks Christian Schmitz).</li>
+                        <li>General: Use safe CRT/LIBC functions when available.</li>
+                        <li>SQLite: Fixed default date/time type search option value (thanks Christian Schmitz).</li>
+                        <li>General: Added SAException::CommandText() method.</li>
+                        <li>General: Fixed STATIC DBMS API loading (thanks Manfred Kubica).</li>
+                        <li>SQLServer (OLEDB): Fixed bug with multiple connections.</li>
+                        <li>ODBC: API code reorganized.</li>
+                        <li>PostgreSQL: Added support for stored procedures.</li>
+                        <li>General: Throw SAException instead or assertion when required DBMS API function cannot be loaded.</li>
+                        <li>PostgreSQL: Do not destroy the result set returned by function so it's possible to process for example 'return table...' results (thanks Mike Moening).</li>
+                        <li>PostgreSQL: Improved function/procedure parameters detection for the current/default schema (thanks Mike Moening).</li>
+                        <li>ODBC: Increased the field/parameter length that should be converted to SA_dtString (helps with some buggy drivers, thanks Christian Schmitz).</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;" border="0" cellpadding="1" cellspacing="1" width="100%">
+        <tbody>
+            <tr bgcolor="blue">
+                <td><font color="#ffffff"><strong>28&nbsp;December 2018</strong></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Version 4.2.4 of SQLAPI++ library released.</p>
+                    <p>New features:</p>
+                    <ul>
+                        <li>SQLServer (OLEDB): API code reorganized.</li>
+                        <li>SQLServer (ODBC): API code reorganized.</li>
+                        <li>SQLBase: API code reorganized.</li>
+                        <li>Interbase: API code reorganized.</li>
+                        <li>SQL Anywhere: API code reorganized.</li>
+                        <li>DB2: API code reorganized (special "STATIC" value for "DB2CLI.LIBS" option).</li>
+                        <li>Informix: API code reorganized (special "STATIC" value for "INFCLI.LIBS" option).</li>
+                        <li>Oracle: OCI8 code reorganized (special "STATIC" value for "OCI8.LIBS" option).</li>
+                        <li>Oracle: Added support for Implicit Results (thanks Georgiy Pakhutin).</li>
+                        <li>Oracle: Do not read timezone data for for the date/type types without it because this is too slow (thanks Sven REUTTER).</li>
+                        <li>Sybase: API code reorganized (special "STATIC" value for "SYBCT.LIBS" option).</li>
+                        <li>CubeSQL: API code reorganized (special "STATIC" value for "CUBESQL.LIBS" option).</li>
+                        <li>PostgreSQL: API code reorganized (special "STATIC" value for "LIBPQ.LIBS" option).</li>
+                        <li>SQLite: Added code to detect if the field in the result set is required (thanks Karoly Harmath).</li>
+                        <li>SQLite: API code reorganized (special "STATIC" value for "SQLITE.LIBS" option).</li>
+                        <li>MySQL: API code reorganized (special "STATIC" value for "MYSQL.LIBS" option).</li>
+                        <li>General: Sources split.</li>
+                        <li>SQLServer (ODBC): Fixed multi-result command procesing (Brendan Wilson).</li>
+                        <li>ODBC: Fixed input string buffer processing (thanks Alexander Goldnik).</li>
+                        <li>SQLServer (ODBC): Fixed bug with stored procedures have the output parameters and result sets with LOB fields (thanks Mike Moening).</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;" border="0" cellpadding="1" cellspacing="1" width="100%">
+        <tbody>
+            <tr bgcolor="blue">
+                <td><font color="#ffffff"><strong>20&nbsp;September 2018</strong></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Version 4.2.3 of SQLAPI++ library released.</p>
+                    <p>New features:</p>
+                    <ul>
+                        <li>General: Added SAConnection::GetNextCommand method (enumerates SACommand-s).</li>
+                        <li>General: SA_USE_STL build option uses a map for input parameter names (improved performance for parameter by name searching).</li>
+                        <li>CubeSQL: Fixed setAutoCommit method (thanks Christian Schmitz).</li>
+                        <li>ODBC: Fixed input buffer length for SA_dtString (thanks Christian Schmitz).</li>
+                        <li>Sybase: Fixed connection problem related to OCS error messages 5701 and 5704 (thanks CK Yang).</li>
+                        <li>General: Optimized parameters parsing/creation algorithm for numeric binding parameter names.</li>
+                        <li>PostgreSQL: RefCursor implementation (thanks Danielle Gutfinger).</li>
+                        <li>CubeSQL: Added cubeSqlAPI::SetTraceFunction method (thanks Christian Schmitz).</li>
+                        <li>CubeSQL: Use GetUTF8Chars instead of GetMultiByteChars for Unicode SQLAPI (thanks Christian Schmitz).</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="width: 100%;" border="0" cellpadding="1" cellspacing="1" width="100%">
+        <tbody>
+            <tr bgcolor="blue">
+                <td><font color="#ffffff"><strong>5&nbsp;April 2018</strong></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Version 4.2.2 of SQLAPI++ library released.</p>
+                    <p>New features:</p>
+                    <ul>
+                        <li>SQLServer: Support for Microsoft ODBC Driver 17 for SQL Server on Windows.</li>
+                        <li>ODBC: Fixed binding terminated null character (thanks Jarek Karciarz).</li>
+                        <li>SQL Anywhere: Support for API version 1 (thanks Christian Schmitz).</li>
+                        <li>InterBase: Fixed bug for modern InterBase versions without older XSQLVAR_V1 and SQLDA_VERSION1 support.</li>
+                        <li>InterBase: Fixed bug with boolean type differences for InterBase and Firebird.</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>See <a href="history.html">Full History...</a></p>
+    <hr>
+    <p align="center">
+        <font size="2">
+            Last modified: 29 March 2019<br>
+            <a href="mailto:webmaster@sqlapi.com">webmaster@sqlapi.com</a>
+</tr>
+  </tbody>
+</table>
+</body></html>
